@@ -1,3 +1,8 @@
+/*
+The solution to this problem is very easy,
+just divide the time it takes to drive by
+the time of song.
+*/
 #include<bits/stdc++.h>
 #define fastio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 
@@ -16,7 +21,7 @@ int main()
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 	#endif
-	
+
 	fastio;
 	int testcases; cin >> testcases;
 	while(testcases--)
